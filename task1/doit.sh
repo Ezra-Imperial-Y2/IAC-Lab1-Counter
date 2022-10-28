@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #cleanup
-rm -f obj_dir
+rm -rf obj_dir
 rm -f counter.vcd
 
 #run Verilator to translate Verilog into C++ testbench

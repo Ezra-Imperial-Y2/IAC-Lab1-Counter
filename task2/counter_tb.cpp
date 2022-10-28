@@ -19,6 +19,7 @@ int main(int argc, char **argv, char **env){
     //init Vbuddy 
     if (vbdOpen() != 1) return (-1);
     vbdHeader("Lab 1: Counter");
+    usleep(100000);
 
     //initialize simulation inputs 
     top->clk = 1;
